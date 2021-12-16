@@ -1,0 +1,6 @@
+/build
+/node_modules
+/public
+craco.config.js
+.eslintrc.js
+src/setupProxy.js

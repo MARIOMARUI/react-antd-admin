@@ -1,0 +1,66 @@
+// 最小宽度
+html,
+body {
+  min-width: 600px !important;
+  min-height: 500px !important;
+}
+
+.header-trigger {
+  font-size: 20px;
+  width: @layout-header-height !important;
+  height: @layout-header-height !important;
+  line-height: @layout-header-height !important;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-menu {
+  border: none !important;
+}
+
+.header-version {
+  height: @layout-header-height !important;
+  line-height: @layout-header-height !important;
+  padding-left: 24px;
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.main-content {
+  flex: auto;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+// .main-content-auto {
+//   flex: 0 1 auto;
+//   background-color: #ffffff;
+//   border-radius: 2px;
+//   padding: 20px;
+// }
+
+// .main-content-transparent {
+//   flex: auto;
+//   background-color: transparent;
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+// }
+
+// 已经在app.less 加入overflow-x: hidden;  不再使用
+// .ant-tabs-content-holder{
+//   overflow: scroll;
+//   overflow-x: hidden;
+//   height: 80vh;
+// }
+
+.l-item-mb {
+  margin-bottom: 0;
+}
+.l-form-span {
+  display: inline-block;
+  line-height: 32px;
+  text-align: center;
+}
